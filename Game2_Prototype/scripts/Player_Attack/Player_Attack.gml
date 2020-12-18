@@ -6,14 +6,14 @@ function Player_Attack(){
 if(sprite_index != argument0){
 	sprite_index = argument0
 	image_index = 0
-	ds_list_clear(hitByAttack);
+	//ds_list_clear(hitByAttack);
 }
 instance_create_layer(x, y, "Player", argument1)
 }
 
 //tracks if enemy has been hit before (needs to be fixed)
 
-var hitByAttackNow = ds_list_create();
+/*var hitByAttackNow = ds_list_create();
 var hits = instance_place_list(5,5,obj_baseEnemy,hitByAttackNow, false);
 	
 	if (hits > 0){

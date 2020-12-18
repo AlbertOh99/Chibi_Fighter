@@ -4,7 +4,7 @@
     "path": "sprites/spr_player_attack2HB/spr_player_attack2HB.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -23,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_player_attack2HB","path":"objects/obj_player_attack2HB/obj_player_attack2HB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"Damage","path":"objects/obj_player_attackHB/obj_player_attackHB.yy",},"objectId":{"name":"obj_player_attackHB","path":"objects/obj_player_attackHB/obj_player_attackHB.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},

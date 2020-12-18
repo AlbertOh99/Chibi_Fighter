@@ -15,12 +15,31 @@ switch (state)
 	case PLAYERSTATE.MELEE3:
 	PlayerState_Melee3();
 	break;
-	case PLAYERSTATE.DEAD:
-	PlayerState_Dead();
+	case PLAYERSTATE.HIT1:
+	Player_Hit(damage1);
+	case PLAYERSTATE.HIT2:
+	Player_Hit(damage2);
 	break;
 }
 
+if(player_hp <= 0){
+	instance_destroy();
+}
+
+
 //don't let the player go past a certain point
-if(y <= 550){
-	y = 552;
+if(y <= 1150){
+	y = 1155;
+}
+
+if(y >= room_height - 30){
+	y = room_height - 35
+}
+
+if(x <=30){
+	x = 35
+}
+
+if(x >= room_width - 30){
+	x = room_width - 35
 }

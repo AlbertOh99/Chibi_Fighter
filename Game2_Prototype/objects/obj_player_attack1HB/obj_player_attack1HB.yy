@@ -4,7 +4,7 @@
     "path": "sprites/spr_player_attack1HB/spr_player_attack1HB.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {

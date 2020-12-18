@@ -3,6 +3,7 @@
 function PlayerState_Melee3(){
 Player_Attack(spr_player_attack3, obj_player_attack3HB)
 instance_destroy(obj_player_attack2HB);
+
 //Trigger combo
 if((keyboard_check_pressed(vk_space)) && (image_index > 2)){
 	state = PLAYERSTATE.MELEE

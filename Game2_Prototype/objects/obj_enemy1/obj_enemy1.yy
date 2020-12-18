@@ -23,10 +23,19 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"hp","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"objectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"value":"400","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemy_hp","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"objectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"value":"4000","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemy_spr_hurt","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"objectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"value":"spr_enemyBlue_hurt","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemy_spr_name","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"objectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"value":"spr_enemyBlue","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemy_obj_hurtbox","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"objectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"value":"obj_enemy_attackHB_Blue","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemy_speed","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"objectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"value":"7","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemy_spr_attack","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"objectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"value":"spr_enemyBlue_attack","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemy_spr_run","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"objectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"value":"spr_enemyBlue_run","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemy",
