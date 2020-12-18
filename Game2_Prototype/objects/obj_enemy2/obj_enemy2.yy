@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemyBoxer",
-    "path": "sprites/spr_enemyBoxer/spr_enemyBoxer.yy",
+    "name": "spr_enemyRed",
+    "path": "sprites/spr_enemyRed/spr_enemyRed.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,7 +26,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"hp","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"objectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"value":"40","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hp","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"objectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemy",

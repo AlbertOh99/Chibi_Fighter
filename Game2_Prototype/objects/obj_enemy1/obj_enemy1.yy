@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemyNinja",
-    "path": "sprites/spr_enemyNinja/spr_enemyNinja.yy",
+    "name": "spr_enemyBlue",
+    "path": "sprites/spr_enemyBlue/spr_enemyBlue.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,7 +26,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"hp","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"objectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"value":"2000","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hp","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"objectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"value":"400","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemy",

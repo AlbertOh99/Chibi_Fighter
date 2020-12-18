@@ -20,6 +20,9 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"parent":{"name":"obj_player_attackHB","path":"objects/obj_player_attackHB/obj_player_attackHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_player_attackHB","path":"objects/obj_player_attackHB/obj_player_attackHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_player_attackHB","path":"objects/obj_player_attackHB/obj_player_attackHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_player_attackHB","path":"objects/obj_player_attackHB/obj_player_attackHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_player_attackHB","path":"objects/obj_player_attackHB/obj_player_attackHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"Damage","tags":[],"resourceType":"GMObjectProperty",},

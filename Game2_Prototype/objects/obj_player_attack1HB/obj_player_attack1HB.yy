@@ -23,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},"parent":{"name":"obj_player_attack1HB","path":"objects/obj_player_attack1HB/obj_player_attack1HB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"Damage","path":"objects/obj_player_attackHB/obj_player_attackHB.yy",},"objectId":{"name":"obj_player_attackHB","path":"objects/obj_player_attackHB/obj_player_attackHB.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
