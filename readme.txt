@@ -1,5 +1,6 @@
 Game Name - Chibi Fighter
 
+First game created by -
 Albert Oh
 Cameron Ahn
 Matt Abbott-Rigsbee
